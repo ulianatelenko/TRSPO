@@ -59,9 +59,9 @@ public class ParallelCollatz {
         long t1 = System.nanoTime();
         double sec = (t1 - t0) / 1e9;
 
-        System.out.printf("Total steps: %,d%n", totalSteps);
-        System.out.printf("Average steps: %.6f%n", avg);
-        System.out.printf("Time: %.3f s%n", sec);
+        System.out.printf("Total Collatz steps: %,d%n", totalSteps);
+        System.out.printf("Average steps per number: %.6f%n", avg);
+        System.out.printf("Total computation time: %.3f s%n", sec);
     }
 
     // Count amount of Collatz steps for n
